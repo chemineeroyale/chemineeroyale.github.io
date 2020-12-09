@@ -1,0 +1,41 @@
+<html>
+<head>
+<script>
+var isMobile = {
+        Android: function() {
+            return navigator.userAgent.match(/Android/i);
+        },
+        BlackBerry: function() {
+            return navigator.userAgent.match(/BlackBerry/i);
+        },
+        iOS: function() {
+            return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+        },
+        Opera: function() {
+            return navigator.userAgent.match(/Opera Mini/i);
+        },
+        Windows: function() {
+            return navigator.userAgent.match(/IEMobile/i);
+        },
+        any: function() {
+            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+        }
+
+    };
+
+
+
+if ( isMobile.Android() ) {
+        document.location.href = "/imprint.html";
+    }
+else if(isMobile.iOS())
+{
+document.location.href="https://apps.apple.com/us/app/s%C3%A9lection-chemin%C3%A9e-royale/id1540942504";
+}
+</script>
+</head>
+
+<body>
+&nbsp;
+</body>
+</html>
