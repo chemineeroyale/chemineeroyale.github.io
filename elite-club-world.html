@@ -74,7 +74,7 @@
              </div>
             <div id="response" style="display:none;animation-delay: 0.4s; animation-name: fadeInUp;">
             <form class="formee">
-               <input class="right inputnew" style="background-color:#000; margin-left:2px; margin-top:0px; "  onclick="downloadApp()" type="submit" title="Send" value="Download App">
+               <input class="right inputnew" style="background-color:#000; margin-left:2px; margin-top:0px; "  onclick="downloadApp()" type="button" value="Download App">
                </form>
             </div>
          
@@ -183,7 +183,7 @@ $("#signup").submit(function(e){
 
     $.each(this.elements, function(i, v){
             var input = $(v);
-        data[input.attr("name")] = input.val() + " via Elite Club World";
+        data[input.attr("name")] = input.val();
         delete data["undefined"];
     });
 
@@ -226,6 +226,7 @@ $("#signup").submit(function(e){
 function downloadApp() {
       console.log( "download!" );
       window.location.href = 'https://cheminee-royale.com/app';
+      return false;
 }
 
 </script>
