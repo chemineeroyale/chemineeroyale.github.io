@@ -1845,11 +1845,11 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
   padding: 0;
   font-size: 0.9em;
 	height: 49px;
-  border: 2px solid #FFF;
+  border: 20px solid #FFF;
   border-radius: 5px 0 0 5px;
   border-color: #FFFFFF;
   outline: none;
-  padding: 0 22px 0 20px;
+  padding: 0 10px 0 20px;
 }
 
 .formee input:focus {
