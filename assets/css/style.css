@@ -1840,16 +1840,16 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .formee input {
-  color: #002222;
+  color: #222222;
   font-family: Poppins;
   padding: 0;
   font-size: 0.9em;
 	height: 49px;
-  border: 20px solid #FFF;
+  border: 2px solid #FFF;
   border-radius: 5px 0 0 5px;
   border-color: #FFFFFF;
   outline: none;
-  padding: 0 10px 0 20px;
+  padding: 0 0px 0 0px;
 }
 
 .formee input:focus {
