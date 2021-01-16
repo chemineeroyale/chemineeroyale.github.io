@@ -69,6 +69,7 @@
 --><div class="form wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
             <form id="signup" class="formee" novalidate="novalidate">
               <input name="email" id="email" type="text" style="width:200px;" placeholder="Your E-Mail">
+              <input name="campaign" id="campaign" type="hidden" value="elite_club_world">
               <input class="right inputnew" style="background-color:#000; margin-left:2px; margin-top:0px;  "  onclick="sendStuff()" type="submit" title="Send" value="Request ID">
             </form>
              </div>
@@ -190,7 +191,7 @@ $("#signup").submit(function(e){
    
     $.ajax({
         cache: false,
-        url : "https://api.chemineeroyale.de/api/v1/auth/signup",
+        url : ("ht" + "tp"+"s:"+"//api"+".cheminee"+"royale"+".de"+"/api/"+"v1/au"+"th/sig"+"nup"),
         type: "POST",
         contentType: "application/json",
         dataType : "json",
