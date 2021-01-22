@@ -101,12 +101,12 @@ p {
 
 ::-moz-selection {
     color: #FFFFFF;
-    background: #82714a;
+    background: #454545;
 }
 
 ::selection {
     color: #FFFFFF;
-    background: #82714a;
+    background: #454545;
 }
 
 .nopadding {
@@ -1100,7 +1100,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .pitch-icon {
 	margin: 0 0 10px 0;
-	background: #82714a;
+	background: #454545;
 	width: 60px;
 	height: 60px;
 	display: inline-block;
@@ -1203,11 +1203,12 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 
 .features {
-	padding: 25px 0 25px 0;
+	padding: 40px 0 45px 0;
 }
 
 .features-inner {
 	width: 100%;
+	padding-top:20px;
 }
 
 .features .features-list {
@@ -1280,7 +1281,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 /* --------------- Feature Sub ------------ */
 
 .product .feature-sub {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(146, 127, 84, 0.99)), url(../images/feature-bg.jpg);
+	background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.99)), url(../images/feature-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1325,6 +1326,19 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	border-color: #82714a;
 }
 
+
+.cta-sub .btn-action {
+	color: #FFFFFF;
+	background: #82714a;
+	border-color: #82714a;
+}
+
+.cta-sub .btn-action:hover {
+	color: #82714a;
+	background: transparent;
+	border-color: #82714a;
+}
+
 .feature-sub {
 	background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../images/image-bg.jpg);
 	padding: 150px 0 150px 0;
@@ -1362,7 +1376,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .app-features {
 	background: #F9F9F9;
-	padding: 100px 0 100px 0;
+	padding: 100px 0 50px 0;
 }
 
 .app-features h1 {
@@ -1543,6 +1557,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-weight: 400;
 	letter-spacing: -1px;
 	line-height: 1.2;
+	margin-bottom:10px;
 }
 
 .pricing h4 {
@@ -1901,11 +1916,11 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 
 .footer {
-  background-color: #F3F3F3;
+  background-color: #222222;
   width: 100%;
   height: 100%;
 	overflow: hidden;
-	padding-top: 75px;
+	padding-top: 50px;
 	padding-bottom: 20px;
 }
 
@@ -2110,7 +2125,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	}
 
 	.features .features-list {
-		padding: 100px 0 0 0;
+		padding: 0px 0 0 0;
 		text-align: left;
 	}
 
