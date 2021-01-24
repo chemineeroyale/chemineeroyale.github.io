@@ -287,7 +287,7 @@ $("#signup").submit(function(e){
 function verify(hashValue) {
   document.getElementById("affiliateId").value = hashValue;
   var data = { 
-  "id": hashValue
+  "affiliateId": hashValue
 };
   $.ajax({
         cache: false,
