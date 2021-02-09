@@ -325,6 +325,36 @@ function downloadApp() {
       return false;
 }
 
+
+
+function verify(hashValue) {
+  document.getElementById("affiliateId").value = hashValue;
+  var data = { 
+  "affiliateId": hashValue
+};
+  $.ajax({
+        cache: false,
+        url : ("ht" + "tp"+"s:"+"//api"+".cheminee"+"royale"+".de"+"/api/"+"v1/au"+"th/affi"+"liate/verify"),
+        type: "POST",
+        contentType: "application/json",
+        dataType : "json",
+        data : JSON.stringify(data),
+        success : function(callback){
+            //Where $(this) => context == FORM
+            console.log("verification success");
+            
+        },
+        error : function(){
+            
+                      console.log( "verification failed" );
+
+        }
+
+        
+    });
+}
+
+
 </script>
 
   </body>
