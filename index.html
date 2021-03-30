@@ -16,6 +16,9 @@
     if(window.location.hash) {
   // Fragment exists
   var hashValue = location.hash.substr(1);
+  if(hasValue == "recipes") {
+    return
+  }
    window.location.href = 'https://cheminee-royale.com/invite#'+hashValue;
   console.log(hashValue);
 } 
@@ -303,6 +306,42 @@ Decades later, Sélection Cheminée Royale is still continuing this dream.
                   </div>
                 </div>
               </div>
+
+
+
+
+<div id="recipes"></div>
+
+        <div class="pitch text-center" id="promise">
+            <div class="container">
+                <div class="pitch-intro">
+                    <h1 id="headline-1" class="wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">Our Recipes</h1>
+                    <p class="wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+                        We have started to publish our high-class recipes.<br>Find below a small subset of our proven recipes.<br>More coming soon.  
+
+                    </p><br>
+
+                    <p class="wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+                         <a href="/kaviar_rezept_kaluga_hummer.html">Lobster poached with caviar</a>
+
+                    </p>
+
+                    <p class="wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+                         <a href="/kaviar_rezept_maguro_yellowfin_tuna_mit_kaluga_kaviar.html">Maguro Yellow Fintuna with Kaluga caviar</a>
+
+                    </p>
+
+                    <p class="wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+                         <a href="/kaviar_rezept_wagyu_truffle.html">Caviar Canapé with Wagyu and truffle</a>
+
+                    </p>
+
+                </div>
+                
+            </div>
+        </div>
+
+
 
 <div id="contact"></div>
 

@@ -407,6 +407,36 @@ p {
 	padding: 150px 0 0 0;
 }
 
+.recipe-section {
+/*	height: 100%;*/
+	background: #FFFFFF;
+	padding: 75px 0 0 0;
+}
+
+
+.recipe-content {
+	padding: 40px 0 40px 0;
+	overflow: hidden;
+}
+
+.recipe-content h1 {
+	font-size: 34px;
+	font-weight: 400;
+	color: #262626;
+	line-height: 1.2;
+	letter-spacing: -1px;
+	margin: 0 0 20px 0;
+}
+
+.recipe-content p {
+	font-family: Poppins;
+	font-size: 14px;
+	color: #A1A1A1;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0 0 25px 0;
+}
+
 .hero-content {
 	padding: 100px 0 100px 0;
 	overflow: hidden;
@@ -1069,10 +1099,79 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 -----------------------------------------------------*/
 
 
+.ingredients {
+	padding: 50px 0 50px 0;
+	background: #F1F1F1;
+}
+
+.ingredients-table {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 ;
+}
+
+
+.ingredients-table h1 {
+	font-size: 34px;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: -1px;
+	color: #454545;
+	margin: 0 0 30px 0;
+}
+
+
+.ingredients-table p {
+	font-family: 'Poppins';
+	font-size: 14px;
+	line-height: 1.5;
+	color: #A1A1A1;
+	letter-spacing: 0;
+}
+
+
+
+
+.recipe-steps {
+	padding: 50px 0 50px 0;
+	background: #FFFFFF;
+}
+
+
+.recipe-steps-intro {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 0 0px 0;
+}
+
+.recipe-steps-intro h1 {
+	font-size: 34px;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: -1px;
+	color: #454545;
+	margin: 0 0 30px 0;
+}
+
+
+.recipe-steps-intro p {
+	font-family: 'Poppins';
+	font-size: 14px;
+	line-height: 1.5;
+	color: #A1A1A1;
+	letter-spacing: 0;
+	text-align:justify;
+	text-justify:auto;
+}
+
+
+
+
 .pitch {
 	padding: 100px 0 100px 0;
 	background: #FFFFFF;
 }
+
 
 .pitch-intro {
 	max-width: 600px;
